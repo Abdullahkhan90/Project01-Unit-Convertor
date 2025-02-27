@@ -4,26 +4,29 @@ import streamlit as st
 st.markdown("""
     <style>
     .stApp {
-        background-color: #f0f8ff;
-    }
-    .stSelectbox, .stNumberInput, .stButton {
-        background-color: #e0f7fa;
-    }
-    .stSelectbox select, .stNumberInput input {
-        font-size: 18px;
-        padding: 10px;
+        background-color: white;
     }
     h1 {
-        color: #1e3a8a;
+        color: black;
         font-size: 36px;
         font-family: 'Arial', sans-serif;
         text-align: center;
     }
     h2 {
-        color: #00796b;
+        color: black;
         font-size: 28px;
         font-family: 'Arial', sans-serif;
         text-align: center;
+    }
+    .stSelectbox, .stNumberInput, .stButton {
+        background-color: #ffffff;
+        border: 1px solid blue;
+        color: black;
+    }
+    .stSelectbox select, .stNumberInput input {
+        font-size: 18px;
+        padding: 10px;
+        color: #000000;  /* Dark black color for text */
     }
     .stButton>button {
         background-color: #00796b;
@@ -33,6 +36,9 @@ st.markdown("""
     }
     .stButton>button:hover {
         background-color: #004d40;
+    }
+    label {
+        color: #000000;  /* Dark black color for labels */
     }
     </style>
 """, unsafe_allow_html=True)
