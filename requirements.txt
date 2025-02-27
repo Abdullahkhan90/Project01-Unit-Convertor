@@ -1,4 +1,0 @@
-streamlit==1.29.0
-pint==0.24
-
-dataclasses==0.6  # For Python versions before 3.7
